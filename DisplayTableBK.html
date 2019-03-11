@@ -1,0 +1,37 @@
+            <table class="table table-striped display">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Last Name</th>
+                  <th>First Name</th>
+                  <th>Institution Name</th>
+                  <th>Participant Role</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+					<button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default">
+						<span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+					</button>
+				  </td>
+                  <td><? echo $rows['lastName']; ?></td>
+                  <td><? echo $rows['firstName']; ?></td>
+                  <td><? echo $rows['institution']; ?></td>
+                  <td><? echo $rows['role']; ?></td>
+                  <td>
+					<button type="button" href="includes/update.php" class="btn btn-default">
+						<span class="glyphicon glyphicon-check" aria-hidden="true"></span> Check In
+					</button>
+					
+					<a class="btn btn-default" href="includes/updateModal.php?checkIn=No&KeyID=<? echo $rows['KeyID']; ?>" role="button">Check In</a>
+					
+				  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
