@@ -46,6 +46,9 @@
           <ul class="nav navbar-nav navbar-right">
             <a class="btn btn-default checkTop" href="display.php?letter=<? echo $_GET['letter']; ?>" role="button">Not Checked In</a>
 
+
+
+
           </ul>
 
         </div>

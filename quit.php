@@ -9,7 +9,17 @@
 		session_destroy();
 
 		?>
+
+    
 		   
+
+
+
+
+
+
+
+       
         </div>
       </div>
     </div>
